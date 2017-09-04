@@ -13,7 +13,7 @@ namespace QRCode
         {
             InitializeComponent();
 
-            MainPage = new QRCode.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

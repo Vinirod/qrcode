@@ -21,7 +21,7 @@ namespace QRCode.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new QRCode.App());
+            //LoadApplication(new QRCode.App());
         }
     }
 }

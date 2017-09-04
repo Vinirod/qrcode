@@ -1,7 +1,9 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "Xamarin.Forms": "2.3.4.224"
+    "Xam.Plugins.Vibrate": "3.0.1",
+    "Xamarin.Forms": "2.3.4.224",
+    "ZXing.Net.Mobile.Forms": "2.2.9"
   },
   "frameworks": {
     "uap10.0": {}

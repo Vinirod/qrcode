@@ -21,6 +21,8 @@ namespace QRCode.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+
+            global::ZXing.Net.Mobile.Forms.Android.Platform.Init();
         }
     }
 }

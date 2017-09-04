@@ -2,10 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:QRCode"
-             x:Class="QRCode.MainPage">
+             x:Class="QRCode.MainPage" Title="Códigos Barras">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Button Text="Capturar QRCode" Clicked="Button_Touch_Capture"/>
+        <Button Text="Códigos" Clicked="Button_Touch_Code"/>
+
+        <Label x:Name="lblCode"/>
+    </StackLayout>
 
 </ContentPage>
